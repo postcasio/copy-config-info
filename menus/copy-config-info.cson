@@ -1,0 +1,9 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Copy config info'
+      'command': 'copy-config-info:copy'
+    ]
+  }
+]

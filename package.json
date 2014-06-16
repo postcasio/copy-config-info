@@ -1,0 +1,15 @@
+{
+  "name": "copy-config-info",
+  "main": "./lib/copy-config-info",
+  "version": "0.1.0",
+  "description": "Adds a command, `copy-config-info:copy` that copies a list of active packages, their versions and your Atom configuration to the clipboard.",
+  "activationEvents": [
+    "copy-config-info:copy"
+  ],
+  "repository": "https://github.com/postcasio/copy-config-info",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {}
+}
