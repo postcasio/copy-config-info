@@ -5,7 +5,7 @@ module.exports =
 
 			config = JSON.stringify(atom.config.settings, null, 4)
 
-			atom.clipboard.write "# Packages\n#{packages.join '\n'}\n\n# Config\n```json\n#{config}\n```"
+			atom.clipboard.write "# Atom #{atom.getVersion()}\n## Packages\n#{packages.join '\n'}\n\n## Config\n```json\n#{config}\n```"
 
 	deactivate: ->
 
